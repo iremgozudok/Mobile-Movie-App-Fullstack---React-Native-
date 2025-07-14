@@ -63,7 +63,7 @@ interface MovieDetails {
     iso_639_1: string;
     name: string;
   }[];
-  status: string;
+  status: string ;
   tagline: string | null;
   title: string;
   video: boolean;
