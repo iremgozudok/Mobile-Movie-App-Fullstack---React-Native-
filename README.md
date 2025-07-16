@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+🎬 Movie App - React Native
+This is a mobile movie discovery application built with React Native. It allows users to search for movies, view detailed information, and keep track of their recent searches using Appwrite integration. The app features a clean, responsive UI styled with Tailwind CSS and includes modern animations and masked transitions for a smooth user experience.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 Features
+🔍 Movie Search Functionality
+Integrated with the TMDB (The Movie Database) API to fetch and display up-to-date movie data.
 
-## Get started
+📚 Recent Search Tracking
+Users' latest searched movies are stored and displayed through Appwrite, providing persistent access to their recent activity.
 
-1. Install dependencies
+🎨 Beautiful UI with Tailwind CSS
+Styling is handled using Tailwind CSS, allowing for rapid development and a consistent design system.
 
-   ```bash
+🖼️ Masked View Transitions
+Smooth screen transitions and visual effects using MaskedView to enhance user experience.
+
+⚙️ Modern Development Stack
+Built with best practices in mind using:
+
+React Native
+
+Tailwind CSS (via tailwind-react-native-classnames)
+
+Appwrite (for backend and database)
+
+TMDB API (for movie data)
+
+📦 Technologies Used
+React Native
+
+TypeScript
+
+Tailwind CSS
+
+Appwrite (Authentication & Database)
+
+TMDB API
+
+MaskedView
+
+▶️ Getting Started
+To run this project locally, make sure you have Node.js, Expo CLI, and Yarn or npm installed.
+
+1. Clone the repository
+2. Install dependencies
+   
    npm install
-   ```
+   # or
+   yarn install
+   
+3. Set up environment variables
+   Create a .env file in the root directory and add the following (you can rename the variables based on your implementation):
+   
+   EXPO_PUBLIC_MOVIE_API_KEY=your_tmdb_api_key
+   EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_appwrite_project_id
+   EXPO_PUBLIC_APPWRITE_ENDPOINT=https://your-appwrite-endpoint
+   EXPO_PUBLIC_APPWRITE_DATABASE_ID=your_database_id
+   EXPO_PUBLIC_APPWRITE_COLLECTION_ID=your_collection_id
+   
+5. Start the development server
 
-2. Start the app
-
-   ```bash
    npx expo start
-   ```
+   # or
+   yarn expo start
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This will launch the Expo developer tools. You can scan the QR code with the Expo Go app or run the app on an emulator/simulator.
