@@ -1,4 +1,5 @@
-🎬 Movie App - React Native
+🎬 #Movie App - #React Native
+
 This is a mobile movie discovery application built with React Native. It allows users to search for movies, view detailed information, and keep track of their recent searches using Appwrite integration. The app features a clean, responsive UI styled with Tailwind CSS and includes modern animations and masked transitions for a smooth user experience.
 
 🚀 Features
@@ -45,7 +46,7 @@ To run this project locally, make sure you have Node.js, Expo CLI, and Yarn or n
 2. Install dependencies
    
    npm install
-   # or
+   or
    yarn install
    
 3. Set up environment variables
@@ -60,7 +61,7 @@ To run this project locally, make sure you have Node.js, Expo CLI, and Yarn or n
 5. Start the development server
 
    npx expo start
-   # or
+   or
    yarn expo start
 
 This will launch the Expo developer tools. You can scan the QR code with the Expo Go app or run the app on an emulator/simulator.
